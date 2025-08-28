@@ -1,19 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="utf-8">
-  <title>Author Website</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мои мысли</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header><h1>Официальный сайт автора</h1></header>
+  <header>
+    <h1>Мои мысли</h1>
+  </header>
+
   <main>
-    <p>Сайт опубликован через GitHub Pages + Actions. Ура! 🎉</p>
-    <nav>
-      <a href="#" onclick="alert('Проверка JavaScript работает');return false;">Проверка JS</a>
-    </nav>
+    <section class="bio">
+      <img src="oleg.jpg" alt="Фото Олега Борисовича">
+      <h2>Биография: Кубраков Олег Борисович</h2>
+      <p>Дата рождения: 13 февраля 1952 г.</p>
+    </section>
   </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Все права защищены</p>
+  </footer>
+
   <script src="app.js"></script>
 </body>
 </html>
