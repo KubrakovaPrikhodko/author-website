@@ -1,6 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const yearEl = document.getElementById('year');
-  if (yearEl) {
-    yearEl.textContent = new Date().getFullYear();
-  }
+// app.js
+document.addEventListener("DOMContentLoaded", () => {
+    console.log("Сайт 'Мои мысли' успешно загружен");
 });
