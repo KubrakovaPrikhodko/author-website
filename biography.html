@@ -5,6 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Биография</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        main {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .author-photo {
+            width: 250px;
+            height: auto;
+            border-radius: 8px;
+            object-fit: cover;
+            border: 3px solid #ccc;
+        }
+        .bio-text {
+            flex: 1;
+        }
+        .bio-text h2 {
+            margin-top: 0;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -19,9 +45,12 @@
     </header>
 
     <main>
-        <h2>Кубраков Олег Борисович</h2>
-        <p><b>Дата рождения:</b> 13 февраля 1952 г.</p>
-        <p>Здесь будет более подробная биография: история жизни, достижения, профессиональный путь.</p>
+        <img src="oleg.jpg" alt="Фото Олега Борисовича" class="author-photo">
+        <div class="bio-text">
+            <h2>Кубраков Олег Борисович</h2>
+            <p><strong>Дата рождения:</strong> 13 февраля 1952 г.</p>
+            <p>Краткая биография автора. Здесь можно написать основную информацию: жизненный путь, достижения, интересы, профессиональную деятельность и личные взгляды.</p>
+        </div>
     </main>
 
     <footer>
