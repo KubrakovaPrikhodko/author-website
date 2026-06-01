@@ -55,4 +55,60 @@ footer {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
+body {
+    background: #f4efe7;
+}
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fffaf2;
+    padding: 45px;
+    border-radius: 18px;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.12);
+}
+
+main h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 38px;
+    color: #3a2415;
+    margin-bottom: 10px;
+}
+
+main h3 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 26px;
+    color: #6b3f24;
+    margin-top: 35px;
+    border-bottom: 1px solid #d8c3a5;
+    padding-bottom: 8px;
+}
+
+main p {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 20px;
+    line-height: 1.9;
+    color: #2d2d2d;
+    text-align: justify;
+    margin-bottom: 22px;
+}
+
+header {
+    background: linear-gradient(135deg, #2b1d14, #6b3f24);
+}
+
+header h1 {
+    font-family: Georgia, 'Times New Roman', serif;
+    letter-spacing: 1px;
+}
+
+nav a {
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+footer {
+    background: #2b1d14;
+    color: #f4efe7;
+}
 
